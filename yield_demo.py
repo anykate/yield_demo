@@ -6,7 +6,7 @@ def read_file(filename):
 
 def main():
     for count, line in enumerate(read_file('sample_file.txt')):
-        print(f'{count}: {line}')
+        print(f'{count + 1}: {line}')
 
 
 if __name__ == '__main__':
